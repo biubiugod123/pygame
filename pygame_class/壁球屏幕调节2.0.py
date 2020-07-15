@@ -1,13 +1,13 @@
-# pygame hello world ball game screen size resizable
+# pygame hello world ball game screen size resizable 2.0
 import pygame, sys
 
 pygame.init()
-vinfo = pygame.display.Info()
-size = width,height =vinfo.current_w, vinfo.current_h
+
+size = width, height =600, 400
 
 speed = [1,1]
 Black = 0,0,0
-screen = pygame.display.set_mode(size, pygame.FULLSCREEN)
+screen = pygame.display.set_mode(size, pygame.RESIZABLE)
 pygame.display.set_caption('python ball game')
 ball = pygame.image.load("PYG02-ball.gif")
 ballrect = ball.get_rect()
@@ -30,6 +30,9 @@ while True:
                 speed[1] = speed[1] if speed[1] == 0 else (abs(speed[0])-1) * int(speed[0]/abs(speed[0]))
             elif event.key == pygame.K_ESCAPE:
                 sys.exit()
+        elif event.type == pygame.VIDEORESIZE:
+            size = width, height = event.size[0], size[1]
+            screen = pygame.display.set_mode(size, pygame.RESIZABLE)
     ballrect = ballrect.move(speed[0], speed[1])
     if ballrect.left < 0 or ballrect.right > width:
         speed[0] = -speed[0]
