@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c02f32-a79a-4f2b-866d-17c7521db34a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pygame_class/event.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_class/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame_class/壁球小游戏 鼠标控制.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
-  <component name="RunManager" selected="Python.event">
+  <component name="RunManager" selected="Python.壁球小游戏 鼠标控制">
+    <configuration name="壁球小游戏 鼠标控制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_class/壁球小游戏 鼠标控制.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="壁球最小化感知" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pygame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,27 +106,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_class/壁球屏幕调节1.0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="壁球2.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pygame" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygame_class" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygame_class/壁球2.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.壁球小游戏 鼠标控制" />
         <item itemvalue="Python.event" />
         <item itemvalue="Python.壁球最小化感知" />
         <item itemvalue="Python.壁球屏幕调节1.0" />
         <item itemvalue="Python.壁球3.0" />
-        <item itemvalue="Python.壁球2.0" />
       </list>
     </recent_temporary>
   </component>
@@ -220,22 +221,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="236" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1594558501739" />
-    <state width="1483" height="256" key="GridCell.Tab.0.bottom" timestamp="1595608209542">
+    <state width="729" height="256" key="GridCell.Tab.0.bottom" timestamp="1595610005801">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1595608209542" />
-    <state width="1483" height="256" key="GridCell.Tab.0.center" timestamp="1595608209542">
+    <state width="729" height="256" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1595610005801" />
+    <state width="729" height="256" key="GridCell.Tab.0.center" timestamp="1595610005801">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1595608209542" />
-    <state width="1483" height="256" key="GridCell.Tab.0.left" timestamp="1595608209542">
+    <state width="729" height="256" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1595610005801" />
+    <state width="729" height="256" key="GridCell.Tab.0.left" timestamp="1595610005800">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1595608209542" />
-    <state width="1483" height="256" key="GridCell.Tab.0.right" timestamp="1595608209542">
+    <state width="729" height="256" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1595610005800" />
+    <state width="729" height="256" key="GridCell.Tab.0.right" timestamp="1595610005801">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1483" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1595608209542" />
+    <state width="729" height="256" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1595610005801" />
     <state width="1483" height="317" key="GridCell.Tab.1.bottom" timestamp="1594831110281">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
