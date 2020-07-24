@@ -14,4 +14,10 @@ while True:
                 print("[KEYDOWN]:", "#",event.key, event.mod)
             else:
                 print("[KEYDOWN]",event.unicode,event.key,event.mod)
+        elif event.type == pygame.MOUSEMOTION:
+            print("[MOUSEMOTION]:",event.pos,event.rel,event.buttons)
+        elif event.type == pygame.MOUSEBUTTONUP:
+            print("[BUTTONUP]:",event.pos,event.button)
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            print("[BUTTONDOWN]:", event.pos, event.button)
     pygame.display.update()
