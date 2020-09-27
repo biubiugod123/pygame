@@ -11,7 +11,7 @@ screen = pygame.display.set_mode(size, pygame.RESIZABLE)
 pygame.display.set_caption('python ball game')
 ball = pygame.image.load("PYG02-ball.gif")
 ballrect = ball.get_rect()
-FPS = 300
+FPS = 400
 fclock = pygame.time.Clock()
 
 

@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c02f32-a79a-4f2b-866d-17c7521db34a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pygame_class/事件队列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame_class/壁球最小化感知.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame_class/壁球最小化感知.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
